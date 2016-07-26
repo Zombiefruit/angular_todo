@@ -1,3 +1,5 @@
-'use strict';
+(function() {
+  'use strict';
 
-angular.module('todoList', ['ngRoute']);
+  angular.module('todoList', ['ngRoute']);
+})();

@@ -4,22 +4,25 @@
     <meta charset="utf-8">
     <title>Simple Todo List</title>
     <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.0.9/angular-material.css" />
+  </head>
+  <body class="md-background">
+
+    <div layout="column">
+      <todo-list></todo-list>
+    </div>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-animate.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-resource.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-aria.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.0.9/angular-material.js"></script>
     <script src="app.module.js"></script>
-    <script src="app.config.js"></script>
     <script src="todo-list/todo-list.module.js"></script>
     <script src="todo-list/todo-list.component.js"></script>
-  </head>
-  <body>
-
-    <div>
-      <div ng-view="todo-list"></div>
-    </div>
-
   </body>
 </html>
